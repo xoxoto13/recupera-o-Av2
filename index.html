@@ -3,33 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Função Quadrática</title>
+    <title>EducaFlix - Matemática II</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        /* Seção explicativa (Recuperação 1) */
+        .explicacao {
+            background-color: #ecf0f1;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .explicacao img {
+            width: 400px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .explicacao iframe {
+            margin-top: 20px;
+            width: 560px;
+            height: 315px;
+            border-radius: 10px;
+        }
+
+        /* Banner principal (Recuperação 2) */
+        .banner {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .banner iframe {
+            width: 80%;
+            height: 400px;
+            border-radius: 10px;
+        }
+
+        /* Seção de vídeos */
+        .videos {
+            background-color: #3498db;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .videos iframe {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #27ae60;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1.1em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Função Quadrática</h1>
+    <header>
+        <h1>📚 EducaFlix - Matemática II</h1>
+        <p>Um espaço para aprender Matemática com vídeos e conteúdos explicativos</p>
+    </header>
 
-    <p>
-        A função quadrática é representada pela equação <strong>f(x) = ax² + bx + c</strong>, onde 
-        <em>a</em>, <em>b</em> e <em>c</em> são coeficientes reais e <em>a</em> é diferente de zero.  
-        Seu gráfico é uma parábola que pode estar voltada para cima (a &gt; 0) ou para baixo (a &lt; 0).  
-        Essa função é muito utilizada em situações reais, como cálculos de área, trajetórias de objetos e problemas de otimização.
-    </p>
+    <!-- Seção da Atividade 1 -->
+    <section class="explicacao">
+        <h2>Função Quadrática</h2>
+        <p>
+            A função quadrática é representada por <strong>f(x) = ax² + bx + c</strong>, onde 
+            <em>a</em>, <em>b</em> e <em>c</em> são números reais e <em>a ≠ 0</em>.  
+            Seu gráfico é uma parábola, que pode estar voltada para cima ou para baixo.  
+            Essa função é usada em problemas de trajetórias, máximos, mínimos e aplicações em física e economia.
+        </p>
 
-    <!-- Imagem relacionada -->
-    <img src="https://static.todamateria.com.br/upload/pa/ra/parabolaexemplo.jpg" 
-         alt="Gráfico de uma parábola" 
-         width="500">
+        <img src="https://static.todamateria.com.br/upload/pa/ra/parabolaexemplo.jpg" alt="Gráfico de uma parábola">
 
-    <br><br>
+        <br>
 
-    <!-- Vídeo incorporado do YouTube -->
-    <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/_pQU2qfd3nk" 
-        title="Vídeo sobre Função Quadrática" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
+        <iframe src="https://www.youtube.com/embed/_pQU2qfd3nk" 
+            title="Vídeo Função Quadrática" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </section>
 
+    <!-- Banner em destaque (Atividade 2) -->
+    <section class="banner">
+        <h2>Destaque: Funções em Matemática</h2>
+        <iframe src="https://www.youtube.com/embed/L1-LhWx8K0s" 
+                title="Funções Matemáticas" 
+                frameborder="0" 
+                allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Catálogo de vídeos (Atividade 2) -->
+    <section class="videos">
+        <iframe src="https://www.youtube.com/embed/HEa8QhhM5B8" title="Estatística Básica" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/bU98vp0Vq0M" title="Probabilidade" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/TV7WfknkU6Y" title="Geometria Espacial" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/GpN0jvZZs5c" title="Trigonometria Básica" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/xQdScaA4n9M" title="Equações do 2º Grau" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        <p>📖 Projeto Integrado - Recuperação AV2 | Matemática II</p>
+    </footer>
 </body>
 </html>
